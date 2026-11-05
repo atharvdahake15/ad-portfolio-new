@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en" class="dark scroll-smooth">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="icon" type="image/svg+xml" href="data:image/svg+xml,<svg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 32 32'><rect width='32' height='32' rx='8' fill='%230f172a'/><path d='M9 22L16 8l7 14h-4l-3-6-3 6z' fill='%2338bdf8'/><circle cx='16' cy='16' r='2' fill='%23818cf8'/></svg>" />
+    <title>Atharv Dahake — Data Science Portfolio</title>
+    <meta name="description" content="Futuristic Data Science, Analytics, and Python Engineering portfolio for Atharv Dahake showcasing machine learning projects, data analytics certifications, and technical case studies." />
+    <meta property="og:title" content="Atharv Dahake — Data Science Portfolio" />
+    <meta property="og:description" content="Futuristic Data Science, Analytics, and Python Engineering portfolio for Atharv Dahake showcasing machine learning projects, data analytics certifications, and technical case studies." />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="theme-color" content="#030712" />
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Plus+Jakarta+Sans:wght@300;400;500;600;700;800&family=JetBrains+Mono:wght@400;500;600&display=swap" rel="stylesheet" />
+    <script>
+      (function() {
+        try {
+          var saved = localStorage.getItem('atharv_portfolio_theme');
+          var isDark = saved !== 'light';
+          if (isDark) {
+            document.documentElement.classList.add('dark');
+            document.documentElement.classList.remove('light');
+          } else {
+            document.documentElement.classList.remove('dark');
+            document.documentElement.classList.add('light');
+          }
+        } catch(e) {}
+      })();
+    </script>
+  </head>
+  <body class="bg-slate-50 dark:bg-[#070b14] text-slate-900 dark:text-slate-100 antialiased selection:bg-cyan-500/30 selection:text-cyan-800 dark:selection:text-cyan-200 transition-colors duration-300">
+    <div id="root"></div>
+    <script type="module" src="/src/main.tsx"></script>
+  </body>
+</html>
